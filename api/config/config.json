@@ -1,0 +1,21 @@
+{
+    "development": {
+      "username": "help_user",
+      "password": "help_user",
+      "database": "HelpDb",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "help_user",
+      "password": "help_user",
+      "database": "HelpTestDb",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "production": {
+      "use_env_variable": "DATABASE_URL",
+      "dialect": "postgres"
+    }
+  }
+  
